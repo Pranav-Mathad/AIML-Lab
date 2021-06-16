@@ -15,5 +15,3 @@ for data in ip:
     X=np.abs(w1*phi1+w2*phi2)
     output=1 if X>0 else 0
     print(data,'\t\t',np.round(phi1,4),'   ',np.round(phi2,4),'\t',np.round(X,4),'    ',output)
-    
-    
